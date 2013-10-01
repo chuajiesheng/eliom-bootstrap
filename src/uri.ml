@@ -15,21 +15,39 @@ end
 
 module Css = struct
   module Min = struct
+    let v232 =
+      make_css "//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css"
     let v3 =
       make_css "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
   end
+
+  let v232 =
+    make_css "//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.css"
+  let v3 =
+    make_css "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css"
 end
 
+(* theme css only started since v3 *)
 module Theme = struct
   module Min = struct
     let v3 =
       make_css "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"
   end
+
+  let v3 =
+    make_css "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"
 end
 
 module Js = struct
   module Min = struct
+    let v232 =
+      make_js "//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"
     let v3 =
       make_js "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
   end
+
+  let v232 =
+    make_js "//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.js"
+  let v3 =
+    make_js "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"
 end
