@@ -1,0 +1,23 @@
+
+#----------------------------------------------------------------------
+#           SETTINGS FOR YOUR PACKAGE
+#----------------------------------------------------------------------
+
+# Package name,version and description
+PKG_NAME := eliom-bootstrap
+PKG_VERS := 0.1
+PKG_DESC := bootstrap class binding for eliom framework
+REQUIRES := eliom
+ACHIVES_BYTE := src
+
+# Source files for the package
+FILES := $(wildcard src/*.ml*)
+
+# OCamlfind packages for the package
+PACKAGES := eliom eliom.server eliom.syntax
+
+# Debug package (yes/no): Debugging info in compilation
+DEBUG := yes
+
+# Package's library $(PKG_NAME).{client,server}.cma (a,cmxa,cmxs only server side)
+LIBDIR := lib/
