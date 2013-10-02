@@ -36,7 +36,7 @@ Link CSS and .JS
       (uri_of_string (function () ->
       "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"))
       ()
- 
+
     let bootstrap_js = js_script
       (uri_of_string (function () ->
       "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"))
@@ -50,6 +50,10 @@ Include in your default document
         [jquery_js; bootstrap_css; bootstrap_css_theme; bootstrap_js; google_js])
       (body (mycontent))
 
+
+##TODO
+
+[ ] Include more templates function [1](https://github.com/Drup/evePI/blame/master/bootstrap.eliom)
 
 ##Example
 Coming soon.
