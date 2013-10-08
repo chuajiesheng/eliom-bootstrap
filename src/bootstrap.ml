@@ -185,7 +185,7 @@ let tabs_right = a_class ["tabs-right"]
 (* ----- Components: Navbar ----- *)
 let navbar = a_class ["navbar"]
 let navbar_brand = a_class ["navbar-brand"]
-let navbar_inverse = ["navbar-inverse"]
+let navbar_inverse = a_class ["navbar-inverse"]
 let navbar_inner = a_class ["navbar-inner"]
 let navbar_form = a_class ["navbar-form"]
 let navbar_search = a_class ["navbar-search"]
