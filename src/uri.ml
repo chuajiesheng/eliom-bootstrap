@@ -27,6 +27,13 @@ module Css = struct
     make_css "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css"
 end
 
+module Docs = struct
+  let v232 =
+    make_css "//getbootstrap.com/2.3.2/assets/css/docs.css"
+  let v3 =
+    make_css "//getbootstrap.com/assets/css/docs.css"
+end
+
 (* theme css only started since v3 *)
 module Theme = struct
   module Min = struct
