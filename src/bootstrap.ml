@@ -287,3 +287,7 @@ let pull_right = a_class ["pull-right"]
 let muted = a_class ["muted"]
 
 let clearfix = a_class ["clearfix"]
+
+module Example = struct
+  let show_grid = a_class ["show-grid"]
+end
