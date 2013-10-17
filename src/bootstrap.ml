@@ -26,10 +26,12 @@ let container_t fluid = match fluid with
 (* ----- Bootstrap 3: Scaffolding: Grid System  ----- *)
 let col col = a_class ["col-" ^ (string_of_int) (check col)]
 let col_sm col = a_class ["col-sm-" ^ (string_of_int) (check col)]
+let col_md col = a_class ["col-md-" ^ (string_of_int) (check col)]
 let col_lg col = a_class ["col-lg-" ^ (string_of_int) (check col)]
 
 let col_offset col = a_class ["col-offset-" ^ (string_of_int) (check col)]
 let col_sm_offset col = a_class ["col-sm-offset-" ^ (string_of_int) (check col)]
+let col_md_offset col = a_class ["col-md-offset-" ^ (string_of_int) (check col)]
 let col_lg_offset col = a_class ["col-lg-offset-" ^ (string_of_int) (check col)]
 
 let col_lg_pull col = a_class ["col-lg-pull-" ^ (string_of_int) (check col)]
