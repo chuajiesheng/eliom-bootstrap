@@ -133,6 +133,7 @@ let add_on = a_class ["add-on"]
 let btn_toolbar = a_class ["btn-toolbar"]
 let btn_group = a_class ["btn-group"]
 let btn_group_vertical = a_class ["btn-group-vertical"]
+let btn_group_justified = a_class ["btn-group-justified"]
 let btn_block = a_class ["btn-block"]
 
 let btn_mini = a_class ["btn-mini"]
